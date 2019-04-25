@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  live555:
+    repository: foxacc/hassio-addon-live555
+    target: live555
+    image: smarthouseint/{arch}-addon-live555
