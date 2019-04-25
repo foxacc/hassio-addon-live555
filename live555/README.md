@@ -1,3 +1,8 @@
+
+# ATTENTION #
+### This is FORK of https://github.com/alex-savin/hassio-addons
+
+
 # SmartHouse Hass.io Add-ons: Live555 RTSP Proxy Server
 
 ## About
@@ -47,7 +52,7 @@ properly/fully.
 1. Check the logs of the "Live555 RTSP Proxy Server" add-on to see it in action.
 
 **NOTE**: Do not add this repository to Hass.io, please use:
-`https://github.com/alex-savin/hassio-addons`.
+`https://github.com/foxacc/hassio-addon-live555`.
 
 ## Docker status
 
