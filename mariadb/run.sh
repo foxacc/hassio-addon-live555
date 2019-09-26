@@ -2,7 +2,7 @@
 set -e
 
 CONFIG_PATH=/data/options.json
-MARIADB_DATA=/data/databases
+MARIADB_DATA=/data/db/mariadb-nc/databases
 
 DATABASES=$(jq --raw-output ".databases[]" $CONFIG_PATH)
 LOGINS=$(jq --raw-output '.logins | length' $CONFIG_PATH)
