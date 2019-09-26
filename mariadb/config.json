@@ -1,7 +1,7 @@
 {
   "name": "MariaDB",
   "version": "1.2",
-  "slug": "mariadb",
+  "slug": "mariadb-nc",
   "description": "An SQL database server",
   "url": "https://home-assistant.io/addons/mariadb/",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
