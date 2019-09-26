@@ -3,7 +3,7 @@
 
 [mysqld]
 
-datadir=/data/databases
+datadir=/data/db/mariadb-nc/databases
 
 [galera]
 
