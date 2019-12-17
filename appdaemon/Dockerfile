@@ -1,5 +1,5 @@
-ARG BUILD_FROM=alpine
-# hadolint ignore=DL3006 hassioaddons/base:5.0.2
+ARG BUILD_FROM=hassioaddons/base:5.0.2
+# hadolint ignore=DL3006 
 FROM ${BUILD_FROM}
 
 # Copy yq
