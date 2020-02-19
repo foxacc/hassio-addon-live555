@@ -5,10 +5,14 @@ FROM $BUILD_FROM
 ENV LANG C.UTF-8
 
 # Setup base
-RUN apk add --no-cache mariadb mariadb-client
+RUN apk add --no-cache \
+    mariadb \
+    mariadb-client \
+    mariadb-server-utils \
+    pwgen
 
 # Copy data
-COPY run.sh /
-COPY mariadb-server.cnf /etc/my.cnf.d/
+COPY data/run.sh /
+COPY data/mariadb-server.cnf /etc/my.cnf.d/
 
 CMD [ "/run.sh" ]
